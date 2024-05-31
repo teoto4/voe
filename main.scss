@@ -1,10 +1,13 @@
 // utils
-@import './scss/utils/reset';
 @import './scss/utils/root';
 @import './scss/utils/global_grid';
 @import './scss/utils/font_import';
+@import './scss/utils/reset';
 
 // components
 @import './scss/components/header';
 @import './scss/components/main_page';
 @import './scss/components/footer';
+@import './scss/components/contacto';
+@import './scss/components/nossos';
+@import './scss/components/pedido';
