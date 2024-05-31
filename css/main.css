@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+body {
+  display: grid;
+  grid-template-rows: minmax(104px, auto) minmax(4441px, auto) minmax(max-width 512px, auto);
+  overflow-x: hidden;
+}
+
+.header {
+  width: 100%;
+  background-color: #EC6B18;
+  position: fixed;
+  opacity: 90%;
+  z-index: 20;
+}
+.header .container-fluid {
+  width: 90%;
+  justify-content: space-between;
+  background-color: #EC6B18;
+  padding: 0px;
+}
+.header .container-fluid .navbar-brand img {
+  width: 178px;
+  max-height: 87.62px;
+}
+.header nav {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+.header nav .collapse {
+  justify-content: center;
+}
+.header nav .collapse .navbar-nav {
+  justify-content: space-between;
+}
+.header nav .collapse .navbar-nav .nav-item a {
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 95px;
+}
+.header nav .collapse .navbar-nav .nav-item ul li a {
+  margin-left: 0px;
+  background-color: #EC6B18;
+  color: white;
+}
+.header nav .collapse .navbar-nav .nav-item ul {
+  background-color: #EC6B18;
+}
+.header .icon_header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .icon_header ul li {
+  margin-left: 25px;
+  cursor: pointer;
+}
+.header .icon_header ul li .contact {
+  border: 1px solid #FFFFFF;
+  border-radius: 25px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.header .icon_header ul li .contact p {
+  margin: 0px auto;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 8px 18px 8px 18px;
+}
+
+main .main_page {
+  width: 100%;
+  height: 100%;
+  min-height: 1000px;
+  background-image: url(../../img/main_page/main-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+main .main_page .main_page_text_block {
+  background-color: rgba(18, 61, 125, 0.8470588235);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+main .main_page .main_page_text_block .main_page_text_block_center {
+  width: 85%;
+  margin: 0px auto;
+}
+main .main_page .main_page_text_block .main_page_text_block_center .text_block_logo {
+  color: #FFFFFF;
+  font-size: 46.63px;
+}
+main .main_page .main_page_text_block .main_page_text_block_center .text_block_desc {
+  margin-top: 43.38px;
+  max-width: 430px;
+  font-size: 25.52px;
+  color: #FFFFFF;
+}
+main .main_page .main_page_text_block .main_page_text_block_center .text_block_desc .bold_sao {
+  font-weight: 700;
+}
+main .main_page .main_page_text_block .main_page_text_block_center .text_block_button {
+  margin-top: 43px;
+  max-height: 73.57px;
+  padding: 14.92px 27.94px 19.64px 26.06px;
+  font-size: 27.59px;
+  background-color: #EC6B18;
+  border: none;
+  border-radius: 50px;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+main .main_page .main_page_text_block .massege_icon_btn img {
+  position: fixed;
+  z-index: 10;
+  right: 0px;
+  top: 85%;
+  right: 3%;
+  cursor: pointer;
+}
+main .photos_page {
+  position: relative;
+  height: 100%;
+  background-image: url("../../img/main_page/big-bg.png");
+  background-size: 100%;
+}
+main .photos_page .photos_page_dark {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(50, 101, 155, 0.5411764706);
+  z-index: 1;
+}
+main .photos_page .photos_page_dark .photos_page_desc {
+  height: 100%;
+  -webkit-backdrop-filter: blur(80px);
+          backdrop-filter: blur(80px);
+}/*# sourceMappingURL=main.css.map */

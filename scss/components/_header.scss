@@ -1,0 +1,88 @@
+.header {
+    width: 100%;
+    background-color: #EC6B18;
+    position: fixed;
+    opacity: 90%;
+    z-index: 20;
+
+    .container-fluid {
+        width: 90%;
+        justify-content: space-between;
+        background-color: #EC6B18;
+        padding: 0px;
+
+
+        .navbar-brand img {
+            width: 178px;
+            max-height: 87.62px;
+        }
+
+    }
+
+    nav {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+
+        .collapse {
+            justify-content: center;
+
+            .navbar-nav {
+                justify-content: space-between;
+
+                .nav-item {
+                    & a {
+                        color: $main-font-color;
+                        font-family: $main-font-family;
+                        font-size: 20px;
+                        font-weight: 400;
+                        margin-left: 95px;
+
+
+                    }
+
+                    & ul li a {
+                        margin-left: 0px;
+                        background-color: $main-focus-color;
+                        color: white;
+                    }
+
+                    & ul {
+                        background-color: $main-focus-color;
+                    }
+                }
+
+
+            }
+        }
+    }
+
+    .icon_header {
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            li {
+                margin-left: 25px;
+                cursor: pointer;
+
+                .contact {
+                    p {
+                        margin: 0px auto;
+                        font-size: 20px;
+                        font-weight: 400;
+                        padding: 8px 18px 8px 18px;
+                    }
+
+                    border: 1px solid $main-font-color;
+                    border-radius: 25px;
+                    color: $main-font-color;
+                    display: flex;
+                    justify-content: center;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

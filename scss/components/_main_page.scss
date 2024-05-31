@@ -1,0 +1,88 @@
+main {
+    .main_page {
+        width: 100%;
+        height: 100%;
+        min-height: 1000px;
+        background-image: url(../../img/main_page/main-bg.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+        .main_page_text_block {
+            background-color: #123d7dd8;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+
+            .main_page_text_block_center {
+                width: 85%;
+                margin: 0px auto;
+
+                .text_block_logo {
+                    color: $main-font-color;
+                    font-size: 46.63px;
+                }
+
+                .text_block_desc {
+                    margin-top: 43.38px;
+                    max-width: 430px;
+                    font-size: 25.52px;
+                    color: $main-font-color;
+
+                    .bold_sao {
+                        font-weight: 700;
+                    }
+                }
+
+                .text_block_button {
+                    margin-top: 43px;
+                    max-height: 73.57px;
+                    padding: 14.92px 27.94px 19.64px 26.06px;
+                    font-size: 27.59px;
+                    background-color: $main-focus-color;
+                    border: none;
+                    border-radius: 50px;
+                    color: $main-font-color;
+                    font-weight: 700;
+                }
+            }
+
+            .massege_icon_btn {
+                & img {
+                    position: fixed;
+                    z-index: 10;
+                    right: 0px;
+                    top: 85%;
+                    right: 3%;
+                    cursor: pointer;
+                }
+            }
+
+        }
+    }
+
+    // Photos_page
+
+
+    .photos_page {
+        position: relative;
+        height: 100%;
+        background-image: url('../../img/main_page/big-bg.png');
+        background-size: 100%;
+
+        .photos_page_dark {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-color: #32659b8a;
+            z-index: 1;
+
+
+            .photos_page_desc {
+                height: 100%;
+                backdrop-filter: blur(80px);
+            }
+        }
+    }
+}
