@@ -82,7 +82,9 @@ body {
   justify-content: center;
   cursor: pointer;
 }
-.header .icon_header ul li .contact p {
+.header .icon_header ul li .contact a {
+  text-decoration: none;
+  color: #FFFFFF;
   margin: 0px auto;
   font-size: 20px;
   font-weight: 400;
