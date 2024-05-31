@@ -2,23 +2,30 @@
     background-image: url('../img/nossos/nossos_bg.png');
     height: 100%;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    z-index: -1;
 
     .nosso_conteiner {
-        position: absolute;
+        position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 100%;
-        z-index: 4;
+        height: 50%;
+        margin-top: 108px;
 
         &_pocotes {
             width: 90%;
-            margin-top: 212px;
+
+
+            .upper_line {
+                margin-top: 100px;
+            }
+
 
             & h3 {
+
                 font-size: 100px;
                 color: $main-font-color;
                 font-family: $main-font-family;
@@ -97,15 +104,32 @@
 
     .blue_background {
         position: absolute;
-        height: 100vw;
+        height: 100%;
         width: 100vw;
         background-color: #32659bda;
+        z-index: -1;
+        top: 0px;
     }
 
     .blue_line {
         position: absolute;
-        height: 100vw;
+        top: 0px;
+        height: 100%;
         background-color: #32659b33;
         backdrop-filter: blur(10px);
+        z-index: -1;
     }
+
+
+    .nosso_desc_container {
+        .nosso_desc_container_blue_bg {
+            background-color: #32659bda;
+
+            .nosso_desc_container_blue_bg_line {
+                background-color: #32659b33;
+            }
+        }
+    }
+
+
 }

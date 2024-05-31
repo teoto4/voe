@@ -224,21 +224,24 @@ main .photos_page .photos_page_dark .photos_page_desc .photos_page_text_block .p
   background-image: url("../img/nossos/nossos_bg.png");
   height: 100%;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  z-index: -1;
 }
 .main_nosso .nosso_conteiner {
-  position: absolute;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100%;
-  z-index: 4;
+  height: 50%;
+  margin-top: 108px;
 }
 .main_nosso .nosso_conteiner_pocotes {
   width: 90%;
-  margin-top: 212px;
+}
+.main_nosso .nosso_conteiner_pocotes .upper_line {
+  margin-top: 100px;
 }
 .main_nosso .nosso_conteiner_pocotes h3 {
   font-size: 100px;
@@ -303,14 +306,24 @@ main .photos_page .photos_page_dark .photos_page_desc .photos_page_text_block .p
 }
 .main_nosso .blue_background {
   position: absolute;
-  height: 100vw;
+  height: 100%;
   width: 100vw;
   background-color: rgba(50, 101, 155, 0.8549019608);
+  z-index: -1;
+  top: 0px;
 }
 .main_nosso .blue_line {
   position: absolute;
-  height: 100vw;
+  top: 0px;
+  height: 100%;
   background-color: rgba(50, 101, 155, 0.2);
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
+  z-index: -1;
+}
+.main_nosso .nosso_desc_container .nosso_desc_container_blue_bg {
+  background-color: rgba(50, 101, 155, 0.8549019608);
+}
+.main_nosso .nosso_desc_container .nosso_desc_container_blue_bg .nosso_desc_container_blue_bg_line {
+  background-color: rgba(50, 101, 155, 0.2);
 }/*# sourceMappingURL=main.css.map */
