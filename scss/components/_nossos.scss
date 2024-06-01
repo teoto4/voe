@@ -104,7 +104,7 @@
 
     .blue_background {
         position: absolute;
-        height: 100%;
+        height: 150vw;
         width: 100vw;
         background-color: #32659bda;
         z-index: -1;
@@ -114,7 +114,7 @@
     .blue_line {
         position: absolute;
         top: 0px;
-        height: 100%;
+        height: 150vw;
         background-color: #32659b33;
         backdrop-filter: blur(10px);
         z-index: -1;
@@ -122,11 +122,42 @@
 
 
     .nosso_desc_container {
+        margin-top: 198.2px;
+        height: 500px;
+        padding-bottom: 400px;
+
         .nosso_desc_container_blue_bg {
-            background-color: #32659bda;
+
 
             .nosso_desc_container_blue_bg_line {
-                background-color: #32659b33;
+                text-align: center;
+                color: $main-font-color;
+
+                &_name {
+                    font-size: 61.95px;
+                    font-weight: 500;
+                }
+
+                &_desc {
+                    font-size: 71.74px;
+                    font-weight: 700;
+                }
+
+                &_desc_desc {
+                    font-size: 37.17px;
+                    font-weight: 300;
+                }
+
+                & button {
+                    margin-top: 20px;
+                    border: none;
+                    border-radius: 25px;
+                    background-color: $main-focus-color;
+                    color: $main-font-color;
+                    font-size: 27.59px;
+                    font-weight: 700;
+                    padding: 20px 136px;
+                }
             }
         }
     }
