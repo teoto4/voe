@@ -8,6 +8,51 @@
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.css" />
   </head>
   <body>
+    <div class="blue_padido">
+      <div class="blue_padido_container">
+        <div class="contact_info">
+          <p>Contato</p>
+          <div class="contact_info_desc">
+            <p>
+              AEROPORTO CAMPO DE MARTE <br />
+              <span>Avenida Olavo Fontura, 1078</span>
+            </p>
+            <p>
+              NOSSO TELEFONE<br />
+              <span>(11) 2659-1001</span>
+            </p>
+            <p>
+              PLANTÃO 24HS <br />
+              <span>(11) 2659-1001</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="form_conteiner">
+        <form class="form_pain" action="">
+          <p class="form_name">Fale Conosco</p>
+          <p class="form_desc">Estamos prontos para te atender.</p>
+          <input type="text" placeholder="Name" required />
+          <input
+            type="email"
+            placeholder="Email"
+            minlength="6"
+            maxlength="26"
+            pattern="^[^@]+@[^@]+\.[^@]+$"
+            required
+          />
+          <input type="tel" placeholder="Whatsapp" required />
+          <input type="Assunto" placeholder="Assunto" required />
+          <textarea
+            name="Mensagem"
+            placeholder="Mensagem"
+            id=""
+            required
+          ></textarea>
+          <button>Enviar</button>
+        </form>
+      </div>
+    </div>
     <header class="header">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -91,8 +136,24 @@
         </div>
       </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    <footer>
+      <div class="blue_padido">
+        <div class="blue_padido_footer">
+          <img class="line_img" src="./img/nossos/line.png" alt="" />
+          <div class="blue_padido_footer_conteiner">
+            <img class="footer_logo" src="./img/icon/logo.png" alt="" />
+            <p>Copyright © Voe SP | Todos os  Direitos Reservados</p>
+            <div class="icon_footer">
+              <ul class="icon_footer_list">
+                <li><img src="./img/icon/facebook_svg.svg" alt="" /></li>
+                <li><img src="./img/icon/insta_Svg.svg" alt="" /></li>
+                <li><img src="./img/icon/whatsap_svg.svg" alt="" /></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
