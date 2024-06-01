@@ -1,0 +1,96 @@
+.blue_padido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .blue_padido_container {
+        width: 85%;
+
+        .contact_info {
+            & p {
+                font-size: 106px;
+                font-weight: 700;
+                color: $main-font-color;
+            }
+
+            &_desc {
+                & p {
+                    color: $main-font-color;
+                    font-size: 32.29px;
+
+                    & span {
+                        font-weight: 300;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .form_conteiner {
+        background-color: #ffffffb2;
+        backdrop-filter: blur(50px);
+        width: 50%;
+
+        .form_pain {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+
+            & input {
+                padding: 20px 20px;
+                margin-left: 10px;
+                margin-right: 10px;
+                border: 1px solid $main-focus-color;
+                border-radius: 25px;
+                margin-top: 10px;
+
+                &:focus {
+                    border: 1px solid $main-focus-color;
+                }
+
+                &:active {
+                    border: 1px solid $main-focus-color;
+                }
+            }
+
+            & textarea {
+                border-radius: 25px;
+                margin-top: 20px;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+                border: 1px solid $main-focus-color;
+                padding: 20px;
+                padding-bottom: 100px;
+            }
+
+            & button {
+                background-color: $main-focus-color;
+                color: $main-font-color;
+                border: none;
+                border-radius: 25px;
+                font-size: 12.61px;
+                font-weight: 700;
+                line-height: 12.6px;
+                max-width: 300px;
+                align-self: center;
+                padding: 20px 100px;
+                margin-bottom: 10px;
+            }
+
+            .form_name {
+                font-size: 54.42px;
+                font-weight: 700;
+                color: #32649B;
+            }
+
+            .form_desc {
+                font-size: 18.91px;
+                line-height: 20.4px;
+                color: #1D1D1B;
+            }
+        }
+    }
+}

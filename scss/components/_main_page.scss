@@ -156,4 +156,87 @@ main {
             }
         }
     }
+
+    .slider_centr {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .carousel {
+            max-width: 392px;
+            max-height: 545px;
+
+
+            .carousel-control-prev-icon {
+                backdrop-filter: invert(100%);
+            }
+
+
+            &-inner {
+                .carousel-item {
+                    & img {
+                        max-width: 392px;
+                        height: 545px;
+                    }
+
+                    .carousel-caption {
+                        color: $main-font-color;
+
+                        & p {
+                            color: $main-font-color;
+                        }
+
+                        & button {
+                            margin-top: 15px;
+                            margin-bottom: 15px;
+                            background-color: $main-focus-color;
+                            color: $main-font-color;
+                            border: none;
+                            border-radius: 50px;
+                            padding: 10px 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+
+@media (max-width:991px) {
+
+    header {
+        .icon_header {
+            display: none;
+        }
+    }
+
+    main {
+        .main_page {
+            background-image: none;
+
+            .main_page_text_block {
+                background-color: #ffffff00;
+            }
+        }
+
+        .photos_absolute {
+            display: none;
+        }
+
+        .photos_page_desc {
+            background-color: #ffffff00;
+            backdrop-filter: none;
+        }
+
+        .main_page_text_block {
+            background-color: #ffffff00;
+        }
+
+
+    }
+
 }
