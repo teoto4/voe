@@ -1,0 +1,93 @@
+body {
+    background-image: url('../img/nossos/nossos_bg.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+
+    .blue_padido {
+        background-color: #32659b98;
+        width: 100%;
+
+        .main_padido {
+            display: flex;
+            background-image: url("../../img/padido/padido_bg.png");
+            background-size: cover;
+            height: 100vh;
+
+            .padido_blue_line {
+                background-color: #123d7dcc;
+                display: flex;
+                justify-content: center;
+
+                .blue_line_container {
+                    width: 85%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    color: $main-font-color;
+
+                    & h3 {
+                        font-size: 91.37px;
+                        font-weight: 700;
+                        line-height: 91.4px;
+                        max-width: 553.39px;
+                    }
+
+                    & p {
+                        margin-top: 51.72px;
+                        font-size: 43.1px;
+                        font-weight: 300;
+                        line-height: 43.1px;
+                    }
+
+                    & button {
+                        margin-top: 52.18px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        max-width: 404.27px;
+                        max-height: 63.41px;
+                        color: $main-font-color;
+                        border: none;
+                        border-radius: 25px;
+                        background-color: $main-focus-color;
+                        padding-top: 16.78px;
+                        padding-bottom: 17.63px;
+                        font-size: 23.78px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+
+
+        .second_padido {
+            height: 100vh;
+
+            .second_blure_line {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                width: 75%;
+                background-color: #ffffff3d;
+                backdrop-filter: blur(50px);
+
+                .blure_line_container {
+                    width: 85%;
+                    color: $main-font-color;
+
+                    .blure_line_container_name {
+                        max-width: 638px;
+                        font-size: 106px;
+                        font-weight: 700;
+                        line-height: 106px;
+                    }
+                }
+            }
+        }
+    }
+}
