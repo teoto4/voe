@@ -425,20 +425,27 @@ body .blue_padido .main_padido .padido_blue_line .blue_line_container button {
   font-weight: 700;
 }
 body .blue_padido .second_padido {
-  height: 100vh;
+  height: auto;
+  position: relative;
 }
 body .blue_padido .second_padido .second_blure_line {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: auto;
   width: 75%;
   background-color: rgba(255, 255, 255, 0.2392156863);
   -webkit-backdrop-filter: blur(50px);
           backdrop-filter: blur(50px);
 }
+body .blue_padido .second_padido .second_blure_line .padido_card_city {
+  position: absolute;
+  right: -350px;
+  top: 195px;
+}
 body .blue_padido .second_padido .second_blure_line .blure_line_container {
+  margin-top: 304px;
   width: 85%;
   color: #FFFFFF;
 }
@@ -447,4 +454,151 @@ body .blue_padido .second_padido .second_blure_line .blure_line_container .blure
   font-size: 106px;
   font-weight: 700;
   line-height: 106px;
+}
+body .blue_padido .second_padido .second_blure_line .blure_line_container .blure_line_container_name_second {
+  margin-top: 30px;
+  font-size: 40px;
+  font-weight: 500;
+}
+body .blue_padido .second_padido .second_blure_line .blure_line_container .blure_line_container_second {
+  margin-top: 30px;
+  max-width: 638px;
+  font-size: 30px;
+  font-weight: 300;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas {
+  height: 100%;
+  margin-top: 272px;
+  padding-bottom: 126px;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .ideas_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2.2fr 1fr 1.5fr 2fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "ideas_name jantar" "ideas_local jantar" "ideas_local paradisia" "alto_mar paradisia";
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .jantar {
+  grid-area: jantar;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .jantar .love_cards {
+  margin-top: 62px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #FFFFFF;
+  border-radius: 25px 0px 0px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .jantar .love_cards_text {
+  color: #FFFFFF;
+  padding: 275px 29px 274px 76px;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .jantar .love_cards_text_name {
+  font-size: 42.27px;
+  font-weight: 700;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .jantar .love_cards_text_desc {
+  font-size: 32.54px;
+  font-weight: 300;
+  max-width: 401px;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .jantar .love_cards img {
+  padding-left: 30px;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .paradisia {
+  grid-area: paradisia;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .paradisia .love_cards {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #FFFFFF;
+  border-radius: 25px 0px 0px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .paradisia .love_cards_text {
+  color: #FFFFFF;
+  padding: 216px 44px 215.91px 76px;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .paradisia .love_cards_text_name {
+  font-size: 42.27px;
+  font-weight: 700;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .paradisia .love_cards_text_desc {
+  font-size: 32.54px;
+  font-weight: 300;
+  max-width: 401px;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .paradisia .love_cards img {
+  padding-left: 44px;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .ideas_name {
+  grid-area: ideas_name;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .ideas_local {
+  grid-area: ideas_local;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .ideas_local .love_cards {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #FFFFFF;
+  border-radius: 25px 0px 0px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .ideas_local .love_cards_text {
+  color: #FFFFFF;
+  padding: 216px 44px 215.91px 76px;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .ideas_local .love_cards_text_name {
+  font-size: 42.27px;
+  font-weight: 700;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .ideas_local .love_cards_text_desc {
+  font-size: 32.54px;
+  font-weight: 300;
+  max-width: 401px;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .ideas_local .love_cards img {
+  padding-left: 44px;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .alto_mar {
+  grid-area: alto_mar;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .alto_mar .love_cards {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #FFFFFF;
+  border-radius: 25px 0px 0px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .alto_mar .love_cards_text {
+  color: #FFFFFF;
+  padding: 216px 44px 215.91px 76px;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .alto_mar .love_cards_text_name {
+  font-size: 42.27px;
+  font-weight: 700;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .alto_mar .love_cards_text_desc {
+  font-size: 32.54px;
+  font-weight: 300;
+  max-width: 401px;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .alto_mar .love_cards img {
+  padding-left: 44px;
+}
+body footer {
+  height: 100%;
+  width: 100%;
+}
+body footer .blue_padido {
+  height: 100%;
 }/*# sourceMappingURL=main.css.map */

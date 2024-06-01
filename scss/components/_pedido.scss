@@ -64,19 +64,27 @@ body {
 
 
         .second_padido {
-            height: 100vh;
+            height: auto;
+            position: relative;
 
             .second_blure_line {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                height: 100%;
+                height: auto;
                 width: 75%;
                 background-color: #ffffff3d;
                 backdrop-filter: blur(50px);
 
+                .padido_card_city {
+                    position: absolute;
+                    right: -350px;
+                    top: 195px;
+                }
+
                 .blure_line_container {
+                    margin-top: 304px;
                     width: 85%;
                     color: $main-font-color;
 
@@ -86,8 +94,196 @@ body {
                         font-weight: 700;
                         line-height: 106px;
                     }
+
+                    .blure_line_container_name_second {
+                        margin-top: 30px;
+                        font-size: 40px;
+                        font-weight: 500;
+                    }
+
+                    .blure_line_container_second {
+                        margin-top: 30px;
+                        max-width: 638px;
+                        font-size: 30px;
+                        font-weight: 300;
+                    }
+
+                }
+
+                .padido_ideas {
+                    height: 100%;
+                    margin-top: 272px;
+                    padding-bottom: 126px;
+
+                    .ideas_grid {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        grid-template-rows: 2.2fr 1fr 1.5fr 2fr;
+                        gap: 0px 0px;
+                        grid-auto-flow: row;
+                        grid-template-areas:
+                            "ideas_name jantar"
+                            "ideas_local jantar"
+                            "ideas_local paradisia"
+                            "alto_mar paradisia";
+                    }
+
+                    .jantar {
+                        grid-area: jantar;
+
+                        .love_cards {
+                            margin-top: 62px;
+                            width: 100%;
+                            height: 100%;
+                            border: 1px solid $main-font-color;
+                            border-radius: 25px 0px 0px 25px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            &_text {
+                                color: $main-font-color;
+                                padding: 275px 29px 274px 76px;
+
+                                &_name {
+
+                                    font-size: 42.27px;
+                                    font-weight: 700;
+                                }
+
+                                &_desc {
+                                    font-size: 32.54px;
+                                    font-weight: 300;
+                                    max-width: 401px;
+                                }
+                            }
+
+                            & img {
+                                padding-left: 30px;
+                            }
+                        }
+                    }
+
+                    .paradisia {
+                        grid-area: paradisia;
+
+                        .love_cards {
+                            width: 100%;
+                            height: 100%;
+                            border: 1px solid $main-font-color;
+                            border-radius: 25px 0px 0px 25px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            &_text {
+                                color: $main-font-color;
+                                padding: 216px 44px 215.91px 76px;
+
+                                &_name {
+
+                                    font-size: 42.27px;
+                                    font-weight: 700;
+                                }
+
+                                &_desc {
+                                    font-size: 32.54px;
+                                    font-weight: 300;
+                                    max-width: 401px;
+                                }
+                            }
+
+                            & img {
+                                padding-left: 44px;
+                            }
+                        }
+                    }
+
+                    .ideas_name {
+                        grid-area: ideas_name;
+                    }
+
+                    .ideas_local {
+                        grid-area: ideas_local;
+
+                        .love_cards {
+                            width: 100%;
+                            height: 100%;
+                            border: 1px solid $main-font-color;
+                            border-radius: 25px 0px 0px 25px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            &_text {
+                                color: $main-font-color;
+                                padding: 216px 44px 215.91px 76px;
+
+                                &_name {
+
+                                    font-size: 42.27px;
+                                    font-weight: 700;
+                                }
+
+                                &_desc {
+                                    font-size: 32.54px;
+                                    font-weight: 300;
+                                    max-width: 401px;
+                                }
+                            }
+
+                            & img {
+                                padding-left: 44px;
+                            }
+                        }
+                    }
+
+                    .alto_mar {
+                        grid-area: alto_mar;
+
+                        .love_cards {
+                            width: 100%;
+                            height: 100%;
+                            border: 1px solid $main-font-color;
+                            border-radius: 25px 0px 0px 25px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            &_text {
+                                color: $main-font-color;
+                                padding: 216px 44px 215.91px 76px;
+
+                                &_name {
+
+                                    font-size: 42.27px;
+                                    font-weight: 700;
+                                }
+
+                                &_desc {
+                                    font-size: 32.54px;
+                                    font-weight: 300;
+                                    max-width: 401px;
+                                }
+                            }
+
+                            & img {
+                                padding-left: 44px;
+                            }
+                        }
+                    }
+
                 }
             }
+        }
+    }
+
+    footer {
+        height: 100%;
+        width: 100%;
+
+        .blue_padido {
+            height: 100%;
         }
     }
 }
