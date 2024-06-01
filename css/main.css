@@ -379,7 +379,7 @@ body .blue_padido {
 }
 body .blue_padido .main_padido {
   display: flex;
-  background-image: url("../../img/padido/padido_bg.png");
+  background-image: url("../img/padido/padido_bg.png");
   background-size: cover;
   height: 100vh;
 }
@@ -669,7 +669,7 @@ body .blue_padido .third_padido_container .text_player button {
 body .blue_padido .third_padido .player {
   position: relative;
   margin-top: 119.42px;
-  background-image: url("../../img/padido/player.png");
+  background-image: url("../img/padido/player.png");
   background-size: 100%;
   background-repeat: no-repeat;
   border-radius: 25px 0px 0px 25px;
