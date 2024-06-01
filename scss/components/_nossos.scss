@@ -114,7 +114,7 @@ body {
 
     .blue_background {
         position: absolute;
-        height: 150vw;
+        height: 160vw;
         width: 100vw;
         background-color: #32659bda;
         z-index: -1;
@@ -139,6 +139,7 @@ body {
 
 
             .nosso_desc_container_blue_bg_line {
+                margin-bottom: 200px;
                 text-align: center;
                 color: $main-font-color;
 

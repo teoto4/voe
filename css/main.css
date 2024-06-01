@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 body {
   display: grid;
-  grid-template-rows: minmax(1500px, auto) minmax(152px, auto);
+  grid-template-rows: minmax(1500px, auto) minmax(0px, auto);
   overflow-x: hidden;
   width: 100%;
   height: 100%;
@@ -456,7 +456,7 @@ body {
 }
 .main_nosso .blue_background {
   position: absolute;
-  height: 150vw;
+  height: 160vw;
   width: 100vw;
   background-color: rgba(50, 101, 155, 0.8549019608);
   z-index: -1;
@@ -476,6 +476,7 @@ body {
   height: 500px;
 }
 .main_nosso .nosso_desc_container .nosso_desc_container_blue_bg .nosso_desc_container_blue_bg_line {
+  margin-bottom: 200px;
   text-align: center;
   color: #FFFFFF;
 }
@@ -518,6 +519,7 @@ body .blue_padido .main_padido {
   background-image: url("../img/padido/padido_bg.png");
   background-size: cover;
   height: 100vh;
+  width: 100%;
 }
 body .blue_padido .main_padido .padido_blue_line {
   background-color: rgba(18, 61, 125, 0.8);
@@ -775,7 +777,7 @@ body .blue_padido .third_padido {
 body .blue_padido .third_padido_container {
   width: 85%;
   display: grid;
-  grid-template-rows: 1fr 3fr;
+  grid-template-rows: 1fr 2fr;
 }
 body .blue_padido .third_padido_container .text_player {
   max-width: 1142px;
@@ -811,10 +813,11 @@ body .blue_padido .third_padido .player {
   border-radius: 25px 0px 0px 25px;
 }
 body .blue_padido .third_padido .player_button {
+  width: 174px;
+  height: 174px;
   position: absolute;
-  top: 30%;
-  left: 40%;
-  cursor: pointer;
+  top: 25%;
+  left: 45%;
 }
 body footer {
   height: 100%;
