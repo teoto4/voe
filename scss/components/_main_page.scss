@@ -1,15 +1,15 @@
 main {
     .main_page {
         width: 100%;
-        height: 100%;
-        min-height: 1000px;
+        height: 100vh;
+
         background-image: url(../img/main_page/main-bg.png);
         background-repeat: no-repeat;
         background-size: 100%;
 
         .main_page_text_block {
             background-color: #123d7dd8;
-            height: 100%;
+            height: 100vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -117,12 +117,13 @@ main {
                     .photos_absolute {
                         & img {
                             position: absolute;
-                            right: -28%;
-                            top: 150px;
+                            right: -25%;
+                            top: 384px;
                         }
 
                         .photos_orange_block {
                             position: absolute;
+                            top: 950px;
                             right: 0px;
                             background-color: $main-focus-color;
                             width: 228.28px;

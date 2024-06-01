@@ -96,15 +96,14 @@ h4 {
 
 main .main_page {
   width: 100%;
-  height: 100%;
-  min-height: 1000px;
+  height: 100vh;
   background-image: url(../img/main_page/main-bg.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
 main .main_page .main_page_text_block {
   background-color: rgba(18, 61, 125, 0.8470588235);
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -193,11 +192,12 @@ main .photos_page .photos_page_dark .photos_page_desc .photos_page_text_block p 
 }
 main .photos_page .photos_page_dark .photos_page_desc .photos_page_text_block .photos_absolute img {
   position: absolute;
-  right: -28%;
-  top: 150px;
+  right: -25%;
+  top: 384px;
 }
 main .photos_page .photos_page_dark .photos_page_desc .photos_page_text_block .photos_absolute .photos_orange_block {
   position: absolute;
+  top: 950px;
   right: 0px;
   background-color: #EC6B18;
   width: 228.28px;
@@ -417,7 +417,7 @@ body .blue_padido .main_padido .padido_blue_line .blue_line_container button {
   max-height: 63.41px;
   color: #FFFFFF;
   border: none;
-  border-radius: 25px;
+  border-radius: 50px;
   background-color: #EC6B18;
   padding-top: 16.78px;
   padding-bottom: 17.63px;
@@ -469,11 +469,15 @@ body .blue_padido .second_padido .second_blure_line .blure_line_container .blure
 body .blue_padido .second_padido .second_blure_line .padido_ideas {
   height: 100%;
   margin-top: 272px;
-  padding-bottom: 126px;
+  padding-bottom: 201px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 body .blue_padido .second_padido .second_blure_line .padido_ideas .ideas_grid {
+  width: 85%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   grid-template-rows: 2.2fr 1fr 1.5fr 2fr;
   gap: 0px 0px;
   grid-auto-flow: row;
@@ -481,13 +485,16 @@ body .blue_padido .second_padido .second_blure_line .padido_ideas .ideas_grid {
 }
 body .blue_padido .second_padido .second_blure_line .padido_ideas .jantar {
   grid-area: jantar;
+  position: absolute;
+  right: -400px;
+  top: 1200px;
 }
 body .blue_padido .second_padido .second_blure_line .padido_ideas .jantar .love_cards {
   margin-top: 62px;
   width: 100%;
   height: 100%;
   border: 1px solid #FFFFFF;
-  border-radius: 25px 0px 0px 25px;
+  border-radius: 50px 0px 0px 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -510,6 +517,9 @@ body .blue_padido .second_padido .second_blure_line .padido_ideas .jantar .love_
 }
 body .blue_padido .second_padido .second_blure_line .padido_ideas .paradisia {
   grid-area: paradisia;
+  position: absolute;
+  right: -400px;
+  bottom: 200px;
 }
 body .blue_padido .second_padido .second_blure_line .padido_ideas .paradisia .love_cards {
   width: 100%;
@@ -538,22 +548,44 @@ body .blue_padido .second_padido .second_blure_line .padido_ideas .paradisia .lo
 }
 body .blue_padido .second_padido .second_blure_line .padido_ideas .ideas_name {
   grid-area: ideas_name;
+  color: #FFFFFF;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .ideas_name .ideas_text_name {
+  font-size: 106px;
+  font-weight: 700;
+  line-height: 106px;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .ideas_name .ideas_text_desc {
+  font-size: 30px;
+  font-weight: 300;
+}
+body .blue_padido .second_padido .second_blure_line .padido_ideas .ideas_name button {
+  margin-top: 70px;
+  border: none;
+  border-radius: 25px;
+  background-color: #EC6B18;
+  color: #FFFFFF;
+  font-size: 27.59px;
+  font-weight: 700;
+  padding: 20px 127px;
 }
 body .blue_padido .second_padido .second_blure_line .padido_ideas .ideas_local {
   grid-area: ideas_local;
+  max-width: 700px;
+  margin-top: 74.74px;
 }
 body .blue_padido .second_padido .second_blure_line .padido_ideas .ideas_local .love_cards {
   width: 100%;
-  height: 100%;
+  height: 80%;
   border: 1px solid #FFFFFF;
-  border-radius: 25px 0px 0px 25px;
+  border-radius: 50px 0px 0px 50px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 body .blue_padido .second_padido .second_blure_line .padido_ideas .ideas_local .love_cards_text {
   color: #FFFFFF;
-  padding: 216px 44px 215.91px 76px;
+  padding: 50px 44px;
 }
 body .blue_padido .second_padido .second_blure_line .padido_ideas .ideas_local .love_cards_text_name {
   font-size: 42.27px;
@@ -569,19 +601,20 @@ body .blue_padido .second_padido .second_blure_line .padido_ideas .ideas_local .
 }
 body .blue_padido .second_padido .second_blure_line .padido_ideas .alto_mar {
   grid-area: alto_mar;
+  max-width: 700px;
 }
 body .blue_padido .second_padido .second_blure_line .padido_ideas .alto_mar .love_cards {
   width: 100%;
   height: 100%;
   border: 1px solid #FFFFFF;
-  border-radius: 25px 0px 0px 25px;
+  border-radius: 50px 0px 0px 50px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 body .blue_padido .second_padido .second_blure_line .padido_ideas .alto_mar .love_cards_text {
   color: #FFFFFF;
-  padding: 216px 44px 215.91px 76px;
+  padding: 116px 44px;
 }
 body .blue_padido .second_padido .second_blure_line .padido_ideas .alto_mar .love_cards_text_name {
   font-size: 42.27px;
@@ -595,10 +628,90 @@ body .blue_padido .second_padido .second_blure_line .padido_ideas .alto_mar .lov
 body .blue_padido .second_padido .second_blure_line .padido_ideas .alto_mar .love_cards img {
   padding-left: 44px;
 }
+body .blue_padido .third_padido {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 320px;
+}
+body .blue_padido .third_padido_container {
+  width: 85%;
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+}
+body .blue_padido .third_padido_container .text_player {
+  max-width: 1142px;
+  color: #FFFFFF;
+}
+body .blue_padido .third_padido_container .text_player_name {
+  font-size: 106px;
+  font-weight: 700;
+  line-height: 106px;
+}
+body .blue_padido .third_padido_container .text_player_desc {
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+}
+body .blue_padido .third_padido_container .text_player button {
+  margin-top: 60px;
+  border: none;
+  border-radius: 50px;
+  background-color: #EC6B18;
+  color: #FFFFFF;
+  font-size: 27.59px;
+  font-weight: 700;
+  padding: 20px 80px;
+}
+body .blue_padido .third_padido .player {
+  position: relative;
+  margin-top: 119.42px;
+  background-image: url("../../img/padido/player.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 25px 0px 0px 25px;
+}
+body .blue_padido .third_padido .player_button {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
 body footer {
   height: 100%;
   width: 100%;
 }
 body footer .blue_padido {
   height: 100%;
+  display: flex;
+  justify-content: center;
+}
+body footer .blue_padido_footer {
+  display: flex;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+body footer .blue_padido_footer .line_img {
+  max-width: 1485px;
+  max-height: 3px;
+}
+body footer .blue_padido_footer .blue_padido_footer_conteiner {
+  margin-top: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body footer .blue_padido_footer .blue_padido_footer_conteiner .footer_logo {
+  max-width: 160px;
+}
+body footer .blue_padido_footer .blue_padido_footer_conteiner p {
+  color: #FFFFFF;
+}
+body footer .blue_padido_footer .blue_padido_footer_conteiner .icon_footer_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
