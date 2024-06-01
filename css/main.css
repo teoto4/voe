@@ -2,8 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 body {
   display: grid;
-  grid-template-rows: minmax(104px, auto) minmax(4441px, auto) minmax(max-width 512px, auto);
+  grid-template-rows: minmax(1500px, auto) minmax(152px, auto);
   overflow-x: hidden;
+  width: 100%;
+  height: 100%;
 }
 
 * {
@@ -220,6 +222,10 @@ main .photos_page .photos_page_dark .photos_page_desc .photos_page_text_block .p
   margin-top: -100px;
 }
 
+footer {
+  max-height: 185px;
+}
+
 .main_nosso {
   background-image: url("../img/nossos/nossos_bg.png");
   height: 100%;
@@ -324,7 +330,6 @@ main .photos_page .photos_page_dark .photos_page_desc .photos_page_text_block .p
 .main_nosso .nosso_desc_container {
   margin-top: 198.2px;
   height: 500px;
-  padding-bottom: 400px;
 }
 .main_nosso .nosso_desc_container .nosso_desc_container_blue_bg .nosso_desc_container_blue_bg_line {
   text-align: center;

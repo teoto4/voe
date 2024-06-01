@@ -1,5 +1,7 @@
 body {
     display: grid;
-    grid-template-rows: minmax(104px, auto) minmax(4441px, auto) minmax(max-width 512px, auto);
+    grid-template-rows: minmax(1500px, auto) minmax(152px, auto);
     overflow-x: hidden;
+    width: 100%;
+    height: 100%;
 }
