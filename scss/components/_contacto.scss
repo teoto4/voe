@@ -94,3 +94,26 @@
         }
     }
 }
+
+
+@media (max-width: 1200px) {
+
+    .form_conteiner {
+        margin-top: 20px;
+        width: 90% !important;
+        border-radius: 25px;
+
+        .form_pain {
+            .form_name {
+                margin-top: 15px;
+            }
+
+            & button {
+                padding: 20px 40px !important;
+                max-width: 150px !important;
+            }
+        }
+    }
+
+
+}

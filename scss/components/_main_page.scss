@@ -216,7 +216,7 @@ main {
 
     main {
         .main_page {
-            background-image: none;
+            background-size: cover;
 
             .main_page_text_block {
                 background-color: #ffffff00;
@@ -238,5 +238,42 @@ main {
 
 
     }
+
+}
+
+@media (max-width: 1200px) {
+    p {
+        font-size: 15px !important;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-size: 25px !important;
+    }
+
+    .icon_footer {
+        display: none;
+    }
+
+    .text_block_logo img {
+        width: 100px;
+        height: 50px;
+    }
+
+    .text_block_button {
+        font-size: 15px !important;
+        padding: 8px 16px;
+    }
+
+    .nosso_conteiner_pocotes_grid {
+        img {
+            height: 100%;
+        }
+
+        ;
+
+    }
+
 
 }

@@ -293,7 +293,7 @@ main .slider_centr .carousel-inner .carousel-item .carousel-caption button {
     display: none;
   }
   main .main_page {
-    background-image: none;
+    background-size: cover;
   }
   main .main_page .main_page_text_block {
     background-color: rgba(255, 255, 255, 0);
@@ -308,6 +308,30 @@ main .slider_centr .carousel-inner .carousel-item .carousel-caption button {
   }
   main .main_page_text_block {
     background-color: rgba(255, 255, 255, 0);
+  }
+}
+@media (max-width: 1200px) {
+  p {
+    font-size: 15px !important;
+  }
+  h1,
+  h2,
+  h3 {
+    font-size: 25px !important;
+  }
+  .icon_footer {
+    display: none;
+  }
+  .text_block_logo img {
+    width: 100px;
+    height: 50px;
+  }
+  .text_block_button {
+    font-size: 15px !important;
+    padding: 8px 16px;
+  }
+  .nosso_conteiner_pocotes_grid img {
+    height: 100%;
   }
 }
 footer {
@@ -394,6 +418,20 @@ footer {
   color: #1D1D1B;
 }
 
+@media (max-width: 1200px) {
+  .form_conteiner {
+    margin-top: 20px;
+    width: 90% !important;
+    border-radius: 25px;
+  }
+  .form_conteiner .form_pain .form_name {
+    margin-top: 15px;
+  }
+  .form_conteiner .form_pain button {
+    padding: 20px 40px !important;
+    max-width: 150px !important;
+  }
+}
 body {
   background-image: url("../img/nossos/nossos_bg.png");
   height: 100%;
