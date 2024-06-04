@@ -420,7 +420,7 @@ footer {
 
 @media (max-width: 1200px) {
   .form_conteiner {
-    margin-top: 20px;
+    margin-top: 25px;
     width: 90% !important;
     border-radius: 25px;
   }
