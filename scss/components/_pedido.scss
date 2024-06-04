@@ -408,10 +408,12 @@ body {
                     justify-content: space-between;
 
                     .footer_logo {
+                        cursor: pointer;
                         max-width: 160px;
                     }
 
                     & p {
+                        margin-left: 45px;
                         color: $main-font-color;
                     }
 
@@ -420,6 +422,14 @@ body {
                             display: flex;
                             justify-content: center;
                             align-items: center;
+
+                            img {
+                                margin-left: 15px;
+                                cursor: pointer;
+
+                            }
+
+
                         }
                     }
                 }
@@ -431,4 +441,8 @@ body {
             }
         }
     }
+}
+
+.wats {
+    margin-left: 45px;
 }

@@ -878,13 +878,23 @@ body footer .blue_padido_footer .blue_padido_footer_conteiner {
   justify-content: space-between;
 }
 body footer .blue_padido_footer .blue_padido_footer_conteiner .footer_logo {
+  cursor: pointer;
   max-width: 160px;
 }
 body footer .blue_padido_footer .blue_padido_footer_conteiner p {
+  margin-left: 45px;
   color: #FFFFFF;
 }
 body footer .blue_padido_footer .blue_padido_footer_conteiner .icon_footer_list {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+body footer .blue_padido_footer .blue_padido_footer_conteiner .icon_footer_list img {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.wats {
+  margin-left: 45px;
 }/*# sourceMappingURL=main.css.map */
